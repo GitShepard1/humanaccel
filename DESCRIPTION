@@ -1,0 +1,21 @@
+Package: humanaccel
+Type: Package
+Title: QBI Human Exercise Accelerometry Parser
+Version: 1.4.0
+Author: Alan Ho
+Maintainer: Alan Ho <alan.ho@uq.edu.au>
+Description: This is a wrapper package for the 
+License: GNU-L
+Encoding: UTF-8
+LazyData: true
+Imports:
+  tidyverse (>= 1.2.1),
+  dplyr (>= 0.7.8),
+  tibble (>= 1.4.2),
+  magrittr (>= 1.5),
+  rlist (>= 0.4.6.1),
+  convertagd (>= 0.1.1),
+  accelerometry (>= 2.2.5),
+  stringr (>= 1.3.1),
+  purrr (>= 0.2.5)
+RoxygenNote: 6.1.1
